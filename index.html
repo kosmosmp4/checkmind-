@@ -20,6 +20,10 @@ body {
   padding: 100px 24px;
 }
 
+.section {
+  margin-bottom: 100px;
+}
+
 h1 {
   font-size: 42px;
   line-height: 1.15;
@@ -28,8 +32,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
-  margin-bottom: 18px;
+  font-size: 26px;
+  margin-bottom: 20px;
   letter-spacing: -0.3px;
 }
 
@@ -38,10 +42,6 @@ p {
   line-height: 1.75;
   color: #bfbfbf;
   margin-bottom: 22px;
-}
-
-.section {
-  margin-top: 100px;
 }
 
 .btn {
@@ -53,12 +53,13 @@ p {
   font-weight: 600;
   text-decoration: none;
   font-size: 16px;
+  box-shadow: 0 0 20px rgba(0,229,160,0.25);
   transition: 0.2s ease;
 }
 
 .btn:hover {
   transform: translateY(-2px);
-  opacity: 0.95;
+  box-shadow: 0 0 30px rgba(0,229,160,0.4);
 }
 
 .price {
@@ -69,7 +70,6 @@ p {
 .strike {
   text-decoration: line-through;
   color: #666;
-  margin-bottom: 4px;
 }
 
 .small {
@@ -92,6 +92,14 @@ li {
   margin: 80px 0;
 }
 
+.card {
+  padding: 28px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.02);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
 </style>
 </head>
 
@@ -99,50 +107,70 @@ li {
 
 <div class="container">
 
-<h1>Você sabe que tem mais dentro de você. Mas todo dia acorda e age do mesmo jeito.</h1>
-
-<p>Não é falta de força de vontade. É que você ainda está operando a partir de padrões que não escolheu — instalados antes de você ter escolha sobre isso.</p>
-
-<p>Em 14 dias de prática guiada — manhã e noite — você começa a agir a partir de quem você realmente é.</p>
-
-<a href="#" class="btn">▶ Assistir apresentação gratuita</a>
-
 <div class="section">
+<h1>Você sabe que tem mais dentro de você. Mas todo dia acorda e age do mesmo jeito.</h1>
+<p>Não é falta de força de vontade. É que você ainda está operando a partir de padrões que não escolheu — instalados antes de você ter escolha sobre isso.</p>
+<p>Em 14 dias de prática guiada — manhã e noite — você começa a agir a partir de quem você realmente é. Não de quem te ensinaram a ser.</p>
+<a href="#" class="btn">▶ Assista a apresentação gratuita</a>
+</div>
+
+<div class="section card">
 <p><b>Coloque seu vídeo aqui</b></p>
 </div>
 
 <div class="section">
 <h2>Check Mind — 14 dias para sair do automático</h2>
-<p>28 áudios de meditação guiada + agente de IA disponível 24h.</p>
-
+<p>28 áudios de meditação guiada + agente de IA disponível 24h + progressão dia a dia.</p>
 <p class="strike">de R$97</p>
 <p class="price">R$37</p>
 <p class="small">acesso vitalício · sem mensalidade</p>
-
 <a href="#" class="btn">Quero começar os 14 dias →</a>
-
-<p class="small">7 dias de garantia. Sem risco.</p>
+<p class="small">7 dias de garantia. Se não gostar, devolvemos 100% do valor.</p>
 </div>
 
 <div class="section">
 <h2>Ainda com dúvida?</h2>
-<p>Fala comigo direto no WhatsApp.</p>
-<a href="#" class="btn">Falar no WhatsApp</a>
+<p>Tem alguma pergunta antes de comprar?</p>
+<p>Me manda uma mensagem no WhatsApp. Respondo pessoalmente.</p>
+<a href="#" class="btn">Falar pelo WhatsApp</a>
 </div>
 
 <div class="divider"></div>
 
 <div class="section">
-<h2>Por que funciona</h2>
-<p>Repetição guiada + contexto + consistência diária.</p>
+<h2>Prova</h2>
+<p><b>Eu usei esse processo. Ele mudou tudo.</b></p>
+<p>Eu tive ansiedade severa, ataques de pânico frequentes. Me odiava e fingia que estava bem.</p>
+<p>Tentei de tudo. Li os livros. Assisti os vídeos. Comecei mil vezes e voltei ao mesmo lugar.</p>
+<p>O que mudou foi um processo simples: parar, duas vezes por dia, por 14 dias.</p>
+</div>
+
+<div class="section">
+<h2>Por que confiar nesse método?</h2>
+<p>14 dias · 28 áudios · 2x por dia · suporte 24h</p>
+<p>Esse método não foi criado em teoria. Foi prática real.</p>
+</div>
+
+<div class="section">
+<h2>Como funciona</h2>
+<p><b>Manhã:</b> direção</p>
+<p><b>Noite:</b> integração</p>
+<p><b>IA 24h:</b> suporte contínuo</p>
+</div>
+
+<div class="section">
+<h2>Comparação</h2>
+<p>Apps genéricos, YouTube, livros — todos falham pela falta de processo.</p>
+<p><b>Check Mind</b> é progressivo, guiado e acessível.</p>
 </div>
 
 <div class="section">
 <h2>Para quem é</h2>
 <ul>
-<li>Você sente que vive no automático</li>
-<li>Já tentou mudar e voltou</li>
+<li>Você já tentou mudar e voltou</li>
+<li>Você vive no automático</li>
 <li>Quer consistência real</li>
+<li>Quer começar do zero</li>
 </ul>
 </div>
 
@@ -151,6 +179,7 @@ li {
 <p class="price">R$37</p>
 <p class="small">acesso vitalício · IA 24h</p>
 <a href="#" class="btn">Quero começar agora →</a>
+<p class="small">7 dias de garantia</p>
 </div>
 
 </div>
